@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Стратегії ефективних лідерів сьогодні</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap&subset=cyrillic" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<style>
+/* Фото: локальний файл у img/ має пріоритет; якщо його немає — показується запасне фото (picsum).
+   Щоб замінити фото, просто покладіть файл із відповідною назвою в папку img/ */
+:root{--n:#1f2a44;--t:#3d8b87;--o:#c98a3d;--y:#e0bd72;--c:#c8695f;--v:#6a6fa5;--l:#f5f6fa}
+body{background:#0f1b30}
+.reveal{font-family:Montserrat,Arial,sans-serif;font-size:25px;color:var(--n)}
+.reveal .slides>section{height:100%;box-sizing:border-box;padding:78px 64px 30px;text-align:left;background:linear-gradient(90deg,var(--n),var(--t)) top/100% 6px no-repeat,radial-gradient(circle at 94% 6%,#e0bd7233,transparent 30%),radial-gradient(circle at 4% 100%,#6a6fa51f,transparent 34%),var(--l)}
+.reveal h1{font-size:62px;font-weight:800;line-height:1.1;margin:0 0 18px;color:var(--n);text-transform:none}
+.reveal h2{font-size:40px;font-weight:800;line-height:1.15;margin:0 0 20px;color:var(--n);text-transform:none}
+.reveal h3{font-size:25px;font-weight:800;margin:0 0 8px;color:var(--n);text-transform:none}
+.reveal p{margin:0 0 12px;line-height:1.35}
+.reveal ul{display:block;margin:0;padding-left:1.1em}
+.reveal li{margin-bottom:8px;line-height:1.3}
+.src{font-size:15px;opacity:.65}
+.reveal .slides>section.dk{background:#1f2a44;color:#fff;overflow:hidden}
+.dk::before{content:"";position:absolute;inset:0;background:var(--bg) center/cover;z-index:0}
+.dk.present::before{animation:kb 22s ease-out forwards}
+.dk::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(31,42,68,.9),rgba(61,139,135,.42));z-index:1}
+.dk>*{position:relative;z-index:2}
+@keyframes kb{from{transform:scale(1)}to{transform:scale(1.14)}}
+.reveal .dk h1,.reveal .dk h2,.reveal .dk h3{color:#fff}
+.g{display:grid;gap:22px}.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g12{grid-template-columns:1.25fr 1fr}
+.card{background:#fff;color:var(--n);border-radius:18px;padding:16px 22px;box-shadow:0 8px 22px #1e3a5f26;border-top:7px solid var(--a,var(--t))}
+.card p,.card li{font-size:21px}
+.t{--a:var(--t)}.o{--a:var(--o)}.y{--a:var(--y)}.c{--a:var(--c)}.n{--a:var(--n)}
+.ph{border-radius:20px;background-image:var(--bg);background-size:cover;background-position:center;min-height:300px;box-shadow:0 10px 26px #0004}
+.tag{display:inline-block;background:var(--c);color:#fff;border-radius:20px;padding:4px 16px;font-size:17px;font-weight:600;margin-bottom:12px}
+.tag.t{background:var(--t)}
+.num{font-size:110px;font-weight:800;line-height:1;color:var(--c)}
+.dk .num{color:var(--y)}
+.quote{background:var(--n);color:#fff;border-radius:16px;padding:14px 22px;font-weight:600;font-size:23px;margin-top:14px}
+.dk .quote{background:#ffffff22}
+.tb{width:100%;border-collapse:collapse;font-size:21px}
+.tb th{background:var(--n);color:#fff;padding:9px 14px;text-align:left}
+.tb td{padding:8px 14px;border-bottom:1px solid #d5dde8;background:#fff}
+.bars,.st{display:flex;align-items:flex-end;gap:14px;height:290px}
+.bars div{flex:1;background:var(--t);border-radius:10px 10px 0 0;color:#fff;text-align:center;font-weight:800;font-size:26px;padding-top:8px}
+.bars span{display:block;font-size:15px;font-weight:600;opacity:.9}
+.st{gap:8px;height:270px}
+.st div{flex:1;border-radius:10px 10px 0 0;color:#fff;font-weight:600;font-size:15px;padding:8px 5px;text-align:center}
+.flow{display:flex;gap:10px;align-items:stretch}
+.flow div{flex:1;border-radius:14px;padding:12px 14px;color:#fff;font-weight:600;font-size:20px}
+.flow b{display:block;font-size:17px;opacity:.85;margin-bottom:4px}
+.chip{display:inline-block;background:var(--t);color:#fff;border-radius:30px;padding:8px 20px;margin:0 8px 10px 0;font-weight:600}
+.ico{font-size:40px;line-height:1;margin-bottom:6px}
+.card{transition:transform .25s,box-shadow .25s,opacity .3s}
+.reveal .card:hover{transform:translateY(-6px)!important;box-shadow:0 14px 30px #16213e40}
+[data-go]{cursor:pointer}
+.chip{transition:transform .2s}.chip:hover{transform:scale(1.08)}
+.tb tr:hover td{background:#eef0ff}
+.bars div{transform-origin:bottom}
+.present .bars div{animation:grow 1s ease-out backwards}
+.bars div:nth-child(2){animation-delay:.2s}.bars div:nth-child(3){animation-delay:.4s}.bars div:nth-child(4){animation-delay:.6s}
+@keyframes grow{from{transform:scaleY(0)}}
+.present .ico{animation:bob 2.6s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-6px)}}
+.pick{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.pick button{font:600 16px Montserrat,sans-serif;border:2px solid var(--n);background:#fff;color:var(--n);border-radius:30px;padding:5px 15px;cursor:pointer;transition:.2s}
+.pick button.on,.pick button:hover{background:var(--v);border-color:var(--v);color:#fff}
+.reveal .card.dim{opacity:.25;transform:scale(.96)}
+.reveal .card.hi{transform:scale(1.04);box-shadow:0 14px 34px #6c4ef255}
+#styles .card{padding:10px 18px}#styles .card p{font-size:18px;margin:0}
+.todo{list-style:none;padding:0!important}
+.todo li{cursor:pointer;padding:6px 10px 6px 40px;border-radius:10px;position:relative;transition:.2s}
+.todo li:hover{background:#6c4ef214}
+.todo li::before{content:"";position:absolute;left:8px;top:8px;width:20px;height:20px;border:3px solid var(--v);border-radius:6px;background:#fff}
+.todo li.done{opacity:.55;text-decoration:line-through}
+.todo li.done::before{content:"✓";background:var(--t);border-color:var(--t);color:#fff;font-size:15px;text-align:center;line-height:20px}
+.pb{height:12px;background:#dfe4f5;border-radius:8px;overflow:hidden;margin-top:10px}
+.pb i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--c),var(--y),var(--t));transition:width .4s}
+#toc{position:fixed;left:14px;bottom:12px;z-index:30;font:600 15px Montserrat,sans-serif;background:var(--c);color:#fff;border:0;border-radius:20px;padding:6px 14px;cursor:pointer}
+.reveal .progress{color:var(--c);height:6px}.reveal .controls{color:var(--c)}
+.ph{display:none}.ph.ok{display:block}
+.g12.solo{grid-template-columns:1fr}
+.mid-w{display:flex;flex-direction:column;justify-content:center;height:100%;padding-top:16px}
+.mid-w>.tag{align-self:flex-start}
+#evo .flow>div{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;font-size:22px}
+.vs{display:grid;grid-template-columns:1fr 200px 1fr;gap:8px 10px}
+.vs>*{border-radius:14px;padding:8px 16px;font-size:20px;display:flex;align-items:center;background:#fff;box-shadow:0 4px 12px #16213e1f}
+.present .vs>*{animation:rise .5s backwards;animation-delay:calc(var(--i,0)*.12s)}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}}
+.vs .h{font-weight:800;font-size:25px;color:#fff;justify-content:center;box-shadow:none}
+.vs .hm,.vs .hs{background:var(--n)}.vs .hl{background:linear-gradient(90deg,var(--c),var(--v))}
+.vs .m{justify-content:flex-end;text-align:right;border-right:7px solid var(--n)}
+.vs .l{border-left:7px solid var(--c)}
+.vs .k{background:var(--y);font-weight:800;font-size:17px;justify-content:center;text-align:center}
+.vs.mx{grid-template-columns:.9fr 1.2fr 1.2fr;font-size:18px}
+.vs.mx>*{font-size:18px;padding:7px 14px}
+.vs.mx .h{font-size:21px}
+.vs .he{background:var(--c)}.vs .ho{background:var(--t)}
+.vs .s{background:var(--n);color:#fff;font-weight:800}
+.vs .e{background:#fff0f3;border-left:6px solid var(--c)}
+.vs .o2{background:#e6f8f5;border-left:6px solid var(--t)}
+.reveal .slides>section>.tag{position:absolute!important;top:30px;left:64px;margin:0}
+.slides>section:not(.dk)>*:not(.sh):not(.tag){position:relative;z-index:1}
+.sh{position:absolute;pointer-events:none;z-index:0;background:var(--k)}
+.sa{width:230px;height:230px;border-radius:50%;background:none;border:38px solid var(--k);opacity:.45;top:-80px;right:-70px}
+.sb{width:300px;height:300px;border-radius:50%;opacity:.16;bottom:-120px;right:-90px}
+.sc{width:150px;height:150px;border-radius:34px;opacity:.28;bottom:30px;left:-60px;transform:rotate(28deg)}
+.fl .sa{right:auto;left:-70px}.fl .sb{right:auto;left:-90px}.fl .sc{left:auto;right:-60px}
+.present .sc{animation:flt 6s ease-in-out infinite}
+@keyframes flt{50%{transform:rotate(38deg) translateY(-16px)}}
+.fill .card{min-height:250px}.fill .card p{font-size:23px}
+#plan .card{min-height:270px;padding:26px}#plan .ico{font-size:56px}
+.orb{width:300px;height:300px;margin:auto;border-radius:50%;background:linear-gradient(135deg,var(--t),var(--v));color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-weight:600;font-size:21px;padding:34px;box-shadow:0 0 0 14px #6c4ef222,0 0 0 30px #00a89622}
+.orb span{font-size:96px;font-weight:800;line-height:1}
+.pyr{display:flex;flex-direction:column;align-items:center;gap:6px}
+.pyr div{height:62px;display:flex;align-items:center;justify-content:center;border-radius:12px;color:#fff;font-weight:800;font-size:19px;text-align:center}
+.present .pyr div{animation:rise .6s backwards;animation-delay:calc(var(--i,0)*.15s)}
+.net{display:flex;justify-content:space-between;align-items:center;position:relative;margin:0 0 20px}
+.net::before{content:"";position:absolute;left:4%;right:4%;top:50%;height:4px;background:linear-gradient(90deg,var(--t),var(--y),var(--c))}
+.net i{width:62px;height:62px;border-radius:50%;background:var(--k);z-index:1;display:flex;align-items:center;justify-content:center;font-style:normal;font-size:30px;border:4px solid #fff}
+.kc{display:flex;gap:16px;align-items:center}
+.ic{flex:none;width:62px;height:62px;border-radius:50%;background:var(--a);display:flex;align-items:center;justify-content:center;font-size:30px}
+.rb{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;align-items:center}
+.rb b{font-size:20px;margin-right:6px}.rb span{padding:6px 16px;border-radius:20px;font-weight:600;font-size:17px;color:#fff}
+.reveal .slides>section>.art{position:absolute!important;right:70px;top:140px;width:400px;height:400px;border-radius:50%;border:3px dashed #ffffff66}
+.core{position:absolute;left:50%;top:50%;width:170px;height:170px;margin:-85px;border-radius:50%;background:linear-gradient(135deg,var(--v),var(--c));display:flex;align-items:center;justify-content:center;text-align:center;font-weight:800;font-size:21px;line-height:1.2;color:#fff;animation:pulse 3s ease-in-out infinite;box-shadow:0 0 0 12px #ffffff22}
+@keyframes pulse{50%{transform:scale(1.07)}}
+.art i{position:absolute;left:50%;top:50%;width:68px;height:68px;margin:-34px;border-radius:50%;background:var(--k);display:flex;align-items:center;justify-content:center;font-size:32px;font-style:normal;border:4px solid #fff;box-shadow:0 6px 16px #0006;transform:rotate(var(--a)) translateY(-200px) rotate(calc(var(--a)*-1))}
+.sa{border-width:20px;opacity:.2}.sb{opacity:.07}.sc{opacity:.12}.present .sc{animation:none}
+.present .ico{animation:none}
+.card{box-shadow:0 4px 14px #1f2a4414;border-top-width:5px}
+.reveal .card:hover{box-shadow:0 10px 22px #1f2a4426}
+.reveal .card.hi{box-shadow:0 10px 24px #6a6fa540}
+.vs .e{background:#fbefee}.vs .o2{background:#e9f3f2}
+.vs>*{box-shadow:0 3px 9px #1f2a4414}
+.core{animation:none;box-shadow:0 0 0 10px #ffffff14}
+.art i{border:3px solid #ffffffaa;box-shadow:none}
+.reveal .slides>section>.art{border-color:#ffffff44}
+.orb{box-shadow:0 0 0 12px #6a6fa51a,0 0 0 26px #3d8b8714}
+#toc{background:var(--n)}
+.reveal .progress{height:4px}
+</style>
+</head>
+<body>
+<div class="reveal"><div class="slides">
+
+<!-- 1 -->
+<section class="dk" style="--bg:url(img/title.jpg),url(https://picsum.photos/seed/leaders-title/1600/900)">
+<div style="max-width:690px;margin-top:80px"><span class="tag t">Психологія лідерства</span>
+<h1>Стратегії ефективних лідерів сьогодні</h1>
+<p style="font-size:27px">Есе з дисципліни «Психологія лідерства»</p>
+<p style="font-size:27px;font-weight:800;color:var(--y)">Підготувала: Первак Марія</p>
+<p class="src" style="opacity:.85">Львівський національний університет імені Івана Франка, кафедра менеджменту, 2026</p></div>
+<div class="art"></div>
+</section>
+
+<!-- 2 -->
+<section id="plan" class="nf">
+<h2>Про що розмова</h2>
+<div class="g g3" style="margin-top:30px">
+<div class="card t"><div class="ico">📚</div><h3>Теорія</h3><p>Сутність лідерства, виклики середовища, дані про роль лідера, еволюція підходів</p></div>
+<div class="card o"><div class="ico">🧭</div><h3>Шість стратегій</h3><p>Від емоційного інтелекту до автентичності та етичної цілісності</p></div>
+<div class="card c"><div class="ico">🚀</div><h3>Практика</h3><p>Google, Microsoft, українські лідери у воєнний час та інтегрована модель</p><span class="tag">Головний акцент</span></div>
+</div>
+<p class="src" style="margin-top:18px">Натисніть на розділ, щоб перейти до нього</p>
+</section>
+
+<!-- 3 -->
+<section class="dk" style="--bg:url(img/change.jpg),url(https://picsum.photos/seed/changing-world/1600/900)">
+<h2>Світ змінюється швидше, ніж структури</h2>
+<div class="g g2" style="align-items:center;margin-top:20px">
+<div><div class="num">44%</div><p style="font-size:26px">навичок працівників суттєво зміняться впродовж п’яти років</p><p class="src" style="opacity:.8">World Economic Forum, The Future of Jobs Report 2023</p></div>
+<div><p>Від VUCA до BANI: світ дедалі частіше сприймається як…</p>
+<span class="chip" style="background:var(--c)">крихкий</span><span class="chip" style="background:var(--o)">тривожний</span><span class="chip" style="background:var(--t)">нелінійний</span><span class="chip" style="background:var(--y);color:var(--n)">незбагненний</span>
+<p>Штучний інтелект, гібридна робота, війни й економічна нестабільність роблять лідерство ключовою конкурентною перевагою.</p></div>
+</div>
+</section>
+
+<!-- 4 -->
+<section>
+<h2>Лідер — вимірюваний чинник результату</h2>
+<div class="g g2" style="align-items:center">
+<div><div class="num">≥70%</div><p style="font-size:25px">розбіжностей у залученості команд пояснює поведінка безпосереднього менеджера</p><p class="src">Gallup, State of the American Manager</p></div>
+<div><p style="font-weight:600">Частка залучених працівників у світі</p>
+<div class="bars"><div style="height:220px">22%<span>2019</span></div><div style="height:200px">20%<span>2020</span></div><div style="height:210px">21%<span>2021</span></div><div style="height:230px;background:var(--c)">23%<span>2022</span></div></div>
+<p class="src" style="margin-top:8px">Gallup, State of the Global Workplace</p></div>
+</div>
+</section>
+
+<!-- 5 -->
+<section class="nf">
+<h2>Менеджер і лідер: різні ролі, одна команда</h2>
+<div class="vs"><div class="h hm">⚙️ Менеджер</div><div></div><div class="h hl">🧭 Лідер</div><div class="m" style="--i:1">Посада, повноваження</div><div class="k" style="--i:1">Джерело впливу</div><div class="l" style="--i:1">Авторитет, довіра, приклад</div><div class="m" style="--i:2">Процеси, ресурси, контроль</div><div class="k" style="--i:2">Фокус уваги</div><div class="l" style="--i:2">Люди, сенс, майбутнє</div><div class="m" style="--i:3">Підтримує стабільність</div><div class="k" style="--i:3">Зміни</div><div class="l" style="--i:3">Ініціює зміни</div><div class="m" style="--i:4">Поточні плани</div><div class="k" style="--i:4">Горизонт</div><div class="l" style="--i:4">Довгострокове бачення</div><div class="m" style="--i:5">Мінімізує</div><div class="k" style="--i:5">Ризик</div><div class="l" style="--i:5">Свідомо йде на виправданий</div><div class="m" style="--i:6">«Як зробити правильно?»</div><div class="k" style="--i:6">Основне питання</div><div class="l" style="--i:6">«Що варто робити і навіщо?»</div></div>
+<div class="quote">Найсильніші лідери поєднують системність менеджера з надихаючою силою лідера.</div>
+</section>
+
+<!-- 6 -->
+<section id="evo" class="mid">
+<h2>Як змінювалися погляди на лідерство</h2>
+<div class="flow" style="margin-top:26px;height:300px">
+<div style="background:var(--n)"><b>До 1940-х</b>Теорія рис: лідерами народжуються</div>
+<div style="background:var(--t)"><b>1940–60-ті</b>Поведінкові підходи: що робить лідер</div>
+<div style="background:var(--o)"><b>1960–70-ті</b>Ситуаційні моделі: стиль залежить від обставин</div>
+<div style="background:var(--c)"><b>1970–80-ті</b>Трансформаційне: надихає на вищі цілі</div>
+<div style="background:var(--v)"><b>З 1970-х</b>Сервісне: лідер передусім служить людям</div>
+<div style="background:var(--t)"><b>2000-ні</b>Автентичне й адаптивне: цінності та невизначеність</div>
+</div>
+<div class="quote">Від «героя-одинака» до лідера, який створює умови для успіху команди.</div>
+</section>
+
+<!-- 7 -->
+<section id="six" class="nf">
+<h2>Шість стратегій ефективного лідера</h2>
+<div class="g g3">
+<div class="card t"><div class="ico">🧠</div><h3>Емоційний інтелект і гнучкість стилів</h3></div>
+<div class="card o"><div class="ico">🎯</div><h3>Чітке бачення та лідерство змін</h3></div>
+<div class="card y"><div class="ico">🛡️</div><h3>Психологічна безпека і довіра</h3></div>
+<div class="card t"><div class="ico">🤝</div><h3>Служіння та розвиток людей</h3></div>
+<div class="card o"><div class="ico">🧭</div><h3>Адаптивність у невизначеності</h3></div>
+<div class="card y"><div class="ico">🪞</div><h3>Автентичність та етична цілісність</h3></div>
+</div>
+<p style="margin-top:18px">Це не окремі «рецепти», а єдина система: стратегії підсилюють одна одну.</p><p class="src">Натисніть на стратегію, щоб перейти до її слайда</p>
+</section>
+
+<!-- 8 -->
+<section class="mid">
+<h2>Стратегія 1: емоційний інтелект</h2>
+<div class="g g12" style="align-items:center">
+<div><p>Д. Ґоулман: різницю між посередніми та видатними лідерами значною мірою визначає емоційний інтелект. П’ять складників:</p>
+<span class="chip">самосвідомість</span><span class="chip" style="background:var(--o)">саморегуляція</span><span class="chip" style="background:var(--c)">внутрішня мотивація</span><span class="chip" style="background:var(--n)">емпатія</span><span class="chip" style="background:var(--v)">соціальні навички</span>
+<div class="quote">Такий лідер розуміє свої емоції, не «зривається» у стресі, відчуває настрої інших і будує стосунки.</div></div>
+<div class="orb"><span>5</span>складників емоційного інтелекту</div>
+</div>
+</section>
+
+<!-- 9 -->
+<section id="styles" class="nf">
+<h2>Шість стилів Ґоулмана: оберіть ситуацію</h2><div class="pick"></div>
+<div class="g g3" style="gap:16px">
+<div class="card c"><h3>Примусовий</h3><p>«Роби, як я кажу»: у кризі. Постійно — страх і падіння мотивації.</p></div>
+<div class="card t"><h3>Авторитетний</h3><p>«Ходімо за мною»: потрібен новий напрям і бачення.</p></div>
+<div class="card t"><h3>Афіліативний</h3><p>«Люди — на першому місці»: відновлення довіри, високий стрес.</p></div>
+<div class="card t"><h3>Демократичний</h3><p>«Що ви думаєте?»: потрібні згода й ідеї експертів.</p></div>
+<div class="card c"><h3>«Задавальник темпу»</h3><p>«Роби, як я»: лише для кваліфікованої команди, інакше вигорання.</p></div>
+<div class="card t"><h3>Коучинговий</h3><p>«Спробуй так»: довгостроковий розвиток людей.</p></div>
+</div>
+<div class="quote" style="font-size:21px">Ключова навичка — не «правильний» стиль, а самосвідомість: вчасно помітити, що підхід перестав працювати.</div>
+</section>
+
+<!-- 10 -->
+<section class="mid">
+<h2>Стратегія 2: бачення та лідерство змін</h2>
+<p style="margin-bottom:6px">Вісім кроків Дж. Коттера: пропуск кроків дає лише ілюзію швидкості.</p>
+<div class="st">
+<div style="height:80px;background:var(--t)">Відчуття необхідності</div><div style="height:106px;background:var(--t)">Керівна коаліція</div><div style="height:132px;background:var(--t)">Бачення і стратегія</div>
+<div style="height:158px;background:var(--o)">Донести бачення</div><div style="height:184px;background:var(--o)">Усунути перешкоди</div><div style="height:210px;background:var(--o)">Швидкі перемоги</div>
+<div style="height:236px;background:var(--y);color:var(--n)">Закріпити результати</div><div style="height:262px;background:var(--y);color:var(--n)">Вкорінити в культуру</div>
+</div>
+<div class="quote" style="font-size:20px">Кузес і Познер: показуй приклад · надихай баченням · кидай виклик усталеному · давай можливість діяти · підбадьорюй</div>
+</section>
+
+<!-- 11 -->
+<section class="fill">
+<h2>Стратегії 3 і 4: безпека та служіння людям</h2>
+<div class="g g2">
+<div class="card y"><div class="ico">🛡️</div><h3>Психологічна безпека</h3><p>Е. Едмондсон: безпечно ставити запитання, визнавати помилки, пропонувати сміливі ідеї.</p><p>Найкращі результати — де високі стандарти поєднані з високою безпекою.</p></div>
+<div class="card t"><div class="ico">🤝</div><h3>Служіння та розвиток</h3><p>Р. Грінліф: лідер передусім служить, а вже потім веде.</p><p>С. Сінек: «коло безпеки». Б. Браун: мужність бути вразливим.</p></div>
+</div>
+<div class="quote">Без безпеки високі вимоги породжують тривогу, а без вимог безпека стає самозаспокоєнням.</div>
+</section>
+
+<!-- 12 -->
+<section class="fill">
+<h2>Стратегії 5 і 6: адаптивність та автентичність</h2>
+<div class="g g2">
+<div class="card o"><div class="ico">🧭</div><h3>Адаптивність</h3><p>Розрізняти технічні проблеми та адаптивні виклики, які потребують змін звичок і цінностей.</p><p>Хайфец: «вийти на балкон», регулювати напругу, захищати голоси «знизу».</p></div>
+<div class="card y"><div class="ico">🪞</div><h3>Автентичність</h3><p>Слова збігаються з діями, цінності стають критерієм рішень, а не гаслом.</p><p>Колінз: найстійкіші результати — у лідерів, які ставлять справу вище за власне его.</p></div>
+</div>
+<div class="quote">Чіткі цінності — внутрішній «компас» в нестабільності, а подолання викликів робить цінності зрілішими.</div>
+</section>
+
+<!-- 13 -->
+<section>
+<span class="tag">Практика · Google</span>
+<h2>«Проєкт Арістотель»: що робить команду ефективною</h2>
+<div class="g g12" style="align-items:center">
+<div><p>Google проаналізував <b>180 команд</b>. Головне — не склад «зірок» і не ресурси, а психологічна безпека.</p>
+<div class="quote" style="font-size:21px">Безпеку «будують» мікродіями: реакція на помилку, увага до найтихішого голосу, визнання власної неправоти.</div></div>
+<div class="pyr"><div style="--i:5;width:36%;background:var(--y);color:var(--n)">Вплив</div><div style="--i:4;width:50%;background:var(--o)">Сенс</div><div style="--i:3;width:65%;background:var(--t)">Структура й ясність</div><div style="--i:2;width:80%;background:var(--v)">Надійність</div><div style="--i:1;width:96%;background:var(--c)">Психологічна безпека</div></div>
+</div>
+</section>
+
+<!-- 14 -->
+<section class="dk" style="--bg:url(img/microsoft.jpg),url(https://picsum.photos/seed/learn-it-all/1600/900)">
+<span class="tag">Практика · Microsoft</span>
+<h2>С. Наделла: від «всезнайок» до «тих, хто вчиться»</h2>
+<div class="flow" style="margin:6px 0 24px;height:130px;font-size:25px">
+<div style="background:var(--c);display:flex;align-items:center;justify-content:center;text-align:center">Культура «всезнайок»: захист власної правоти</div>
+<div style="flex:.18;background:none;display:flex;align-items:center;justify-content:center;font-size:50px">➜</div>
+<div style="background:var(--t);display:flex;align-items:center;justify-content:center;text-align:center">Культура «тих, хто вчиться»: цікавість і мислення зростання</div></div>
+<div class="g g3">
+<div class="card y"><div class="ico">💗</div><h3>Емпатія</h3><p>Джерело інновацій («Hit Refresh», 2017)</p></div>
+<div class="card o"><div class="ico">🗣️</div><h3>Зрозуміле бачення</h3><p>Нова мета сформульована простою мовою</p></div>
+<div class="card t"><div class="ico">🪞</div><h3>Особистий приклад</h3><p>Поведінка топменеджерів відображає цінності</p></div>
+</div>
+<p class="src" style="opacity:.85;margin-top:14px">Поєднання емоційного інтелекту, чіткого бачення та лідерства змін</p>
+</section>
+
+<!-- 15 -->
+<section>
+<span class="tag">Практика · Україна</span>
+<h2>Адаптивне лідерство в перші тижні війни</h2>
+<p>Повномасштабне вторгнення 2022 року стало «стрес-тестом» для лідерів. За лічені тижні компанії:</p>
+<div class="g g3">
+<div class="card t"><div class="ico">🚚</div><p>Перебудували логістику, перенесли виробництва й офіси в безпечніші регіони</p></div>
+<div class="card o"><div class="ico">💻</div><p>Налагодили дистанційну роботу</p></div>
+<div class="card c"><div class="ico">🧡</div><p>Підтримали співробітників у зоні бойових дій, за кордоном і в лавах ЗСУ</p></div>
+</div>
+<p style="margin:20px 0 8px;font-weight:600">Готових відповідей не було, тож лідери діяли так:</p>
+<div class="flow" style="height:92px;font-size:21px">
+<div style="background:var(--t)"><b>Крок 1</b>Діагностика ситуації</div><div style="background:var(--o)"><b>Крок 2</b>Залучення команд</div><div style="background:var(--c)"><b>Крок 3</b>Корекція курсу</div></div>
+</section>
+
+<!-- 16 -->
+<section class="dk" style="--bg:url(img/volunteers.jpg),url(https://picsum.photos/seed/volunteers-hands/1600/900)">
+<span class="tag">Практика · Україна</span>
+<h2>Волонтерські мережі: розподілене лідерство</h2>
+<div class="net"><i style="--k:var(--t)">🏘️</i><i style="--k:var(--o)">📦</i><i style="--k:var(--c)">🤝</i><i style="--k:var(--v)">💬</i><i style="--k:var(--y)">🧡</i></div>
+<div class="g g3">
+<div class="card t"><h3>Довіра</h3><p>Горизонтальні мережі трималися на взаємній довірі (психологічна безпека).</p></div>
+<div class="card o"><h3>Відкритість</h3><p>Лідери говорили про ризики, визнавали складність і давали зрозуміле «навіщо».</p></div>
+<div class="card y"><h3>Відповідальність</h3><p>Керівники громад і неформальні лідери діяли без чітких повноважень, спираючись на авторитет і приклад.</p></div>
+</div>
+<div class="quote" style="margin-top:18px">Лідерство — це насамперед вплив і довіра, а не посада.</div>
+<p class="src" style="opacity:.85;margin-top:8px">Приклади ілюструють загальні тенденції; для конкретних компаній потрібні публічні звіти та інтерв’ю.</p>
+</section>
+
+<!-- 17 -->
+<section class="nf">
+<h2>Інтегрована модель: помилки та індикатори</h2>
+<div class="vs mx"><div class="h hs">Стратегія</div><div class="h he">❌ Типова помилка</div><div class="h ho">✅ Індикатор ефективності</div><div class="s" style="--i:1">🧠 Емоційний інтелект і стилі</div><div class="e" style="--i:1">Один «улюблений» стиль</div><div class="o2" style="--i:1">Низька плинність, відкритий фідбек</div><div class="s" style="--i:2">🎯 Бачення і зміни</div><div class="e" style="--i:2">Зміни без пояснення «навіщо»</div><div class="o2" style="--i:2">Команда переказує мету своїми словами</div><div class="s" style="--i:3">🛡️ Психологічна безпека</div><div class="e" style="--i:3">Покарання за помилки й «незручні» новини</div><div class="o2" style="--i:3">Люди першими повідомляють про проблеми</div><div class="s" style="--i:4">🤝 Служіння і розвиток</div><div class="e" style="--i:4">Мікроменеджмент, «героїзм» лідера</div><div class="o2" style="--i:4">Зростання внутрішніх просувань</div><div class="s" style="--i:5">🧭 Адаптивність</div><div class="e" style="--i:5">Швидкі технічні рішення для складних проблем</div><div class="o2" style="--i:5">Швидкість навчання на помилках</div><div class="s" style="--i:6">🪞 Автентичність</div><div class="e" style="--i:6">Розрив між цінностями й вчинками</div><div class="o2" style="--i:6">Висока довіра до лідера в опитуваннях</div></div>
+<div class="quote" style="font-size:19px;margin-top:12px">Бачення без довіри — гасло, довіра без бачення — стагнація, адаптивність без цінностей — кон’юнктурність.</div>
+</section>
+
+<!-- 18 -->
+<section>
+<h2>Цикл безперервного розвитку лідера</h2>
+<div class="flow" style="height:120px;margin-bottom:22px;font-size:21px">
+<div style="background:var(--t)"><b>Крок 1</b>Самоусвідомлення, фідбек 360°</div>
+<div style="background:var(--o)"><b>Крок 2</b>Цілі розвитку</div>
+<div style="background:var(--v)"><b>Крок 3</b>Практика в реальних завданнях</div>
+<div style="background:var(--c)"><b>Крок 4</b>Рефлексія і коригування</div></div>
+<div class="card n"><h3>Мій план розвитку: відмічайте, що вже робите</h3><ul class="todo" style="font-size:21px"><li>Щотижня — час на рефлексію: де стиль був доречним, а де ні</li><li>На старті проєкту — «навіщо» й очікування, після нього — ретроспектива без пошуку винних</li><li>Свідомо реагувати на помилки та запитання команди</li><li>Щокварталу — зворотний зв’язок 360° і 1–2 цілі розвитку</li><li>Пояснювати команді, як рішення узгоджені з цінностями</li></ul></div>
+</section>
+
+<!-- 19 -->
+<section class="dk" style="--bg:url(img/team.jpg),url(https://picsum.photos/seed/team-success/1600/900)">
+<h2>Висновки</h2>
+<div class="g g2" style="gap:16px"><div class="card t kc"><span class="ic">🌱</span><p>Ефективне лідерство — не вроджений дар, а система стратегій, яких можна навчитися.</p></div><div class="card o kc"><span class="ic">📈</span><p>Лідер — вирішальний чинник залученості та результату команди.</p></div><div class="card y kc"><span class="ic">🔗</span><p>Шість стратегій працюють разом: бачення потребує довіри, довіра — послідовності, а послідовність — гнучкості.</p></div><div class="card c kc"><span class="ic">🚀</span><p>Google, Microsoft і українські лідери показують: зміни починаються з поведінки самих лідерів, а не зі слоганів.</p></div></div>
+<div class="rb"><b>Шість стратегій — одна система:</b><span style="background:var(--t)">Емоційний інтелект</span><span style="background:var(--o)">Бачення і зміни</span><span style="background:var(--c)">Психологічна безпека</span><span style="background:var(--v)">Служіння людям</span><span style="background:var(--t)">Адаптивність</span><span style="background:var(--o)">Автентичність</span></div>
+</section>
+
+<!-- 20 -->
+<section class="dk nf" style="--bg:url(img/final.jpg),url(https://picsum.photos/seed/sunrise-path/1600/900)">
+<div style="max-width:660px;margin-top:70px"><h1>Дякую за увагу!</h1>
+<span class="chip" style="background:var(--c);font-size:24px;padding:10px 28px">Запитання?</span>
+<p class="src" style="opacity:.85;margin-top:28px">Ключові джерела: Goleman (1998, 2000) · Kotter (1996) · Kouzes, Posner (2017) · Edmondson (2018) · Heifetz, Grashow, Linsky (2009) · Greenleaf (1977) · Duhigg (2016) · Nadella (2017) · Gallup · World Economic Forum</p></div>
+<div class="art"></div>
+</section>
+
+</div></div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+const $=(q,e=document)=>[...e.querySelectorAll(q)];
+// вирівнювання вмісту по центру слайда
+const PL=[['--y','--v','--t'],['--c','--t','--o'],['--v','--o','--y'],['--t','--c','--v']];
+$('.slides>section:not(.dk)').forEach((s,i)=>{const p=PL[i%4];s.classList.add(i%2?'fl':'fr');s.insertAdjacentHTML('afterbegin',['sa','sb','sc'].map((c,j)=>`<i class="sh ${c}" style="--k:var(${p[j]})"></i>`).join(''))});
+const IC=[['🧠','--t'],['🎯','--o'],['🛡️','--y'],['🤝','--t'],['🧭','--c'],['🪞','--v']];
+$('.art').forEach(a=>{a.innerHTML='<div class="core">Ефективний<br>лідер</div>'+IC.map((x,i)=>`<i style="--a:${i*60}deg;--k:var(${x[1]})">${x[0]}</i>`).join('')});
+// фото-рамка з'являється лише якщо зображення справді завантажилось
+$('.ph').forEach(el=>{const u=[...el.style.getPropertyValue('--bg').matchAll(/url\(([^)]+)\)/g)].map(m=>m[1]);(function t(i){if(i>=u.length){el.parentNode.classList.add('solo');el.remove();return}const im=new Image();im.onload=()=>{el.style.backgroundImage='url('+u[i]+')';el.classList.add('ok')};im.onerror=()=>t(i+1);im.src=u[i]})(0)});
+// поетапна поява елементів (пробіл або стрілка вправо)
+$('section:not(.nf) .g>.card,section:not(.nf) .flow>div,section:not(.nf) .chip,section:not(.nf) .st>div,section:not(.nf) .quote').forEach(e=>e.classList.add('fragment','fade-up'));
+// навігація кліком: план і шість стратегій
+const go=(q,a)=>$(q).forEach((c,i)=>{c.dataset.go=a[i];c.title='Перейти до слайда'});
+go('#plan .card',[2,6,12]);go('#six .card',[7,9,10,10,11,11]);
+document.addEventListener('click',e=>{const c=e.target.closest('[data-go]');if(c)Reveal.slide(+c.dataset.go)});
+// добір лідерського стилю за ситуацією
+const sit=['🚨 Криза','🎯 Потрібен новий напрям','🫂 Стрес, довіра втрачена','💬 Потрібні ідеї експертів','⚡ Сильна мотивована команда','🌱 Розвиток людей'];
+const pk=$('#styles .pick')[0],cs=$('#styles .card');
+sit.forEach((t,i)=>{const b=document.createElement('button');b.textContent=t;b.onclick=()=>{const on=b.classList.contains('on');$('button',pk).forEach(x=>x.classList.remove('on'));cs.forEach(c=>c.classList.remove('hi','dim'));if(!on){b.classList.add('on');cs.forEach((c,j)=>c.classList.add(j==i?'hi':'dim'))}};pk.append(b)});
+// чек-лист із прогрес-баром
+$('.todo').forEach(u=>{const L=$('li',u),p=document.createElement('div');p.className='pb';p.innerHTML='<i></i>';u.after(p);L.forEach(l=>l.onclick=()=>{l.classList.toggle('done');p.firstChild.style.width=100*$('.done',u).length/L.length+'%'})});
+// лічильники чисел
+function count(){$('.num',Reveal.getCurrentSlide()).forEach(n=>{const m=(n.dataset.t=n.dataset.t||n.textContent).match(/^(\D*)(\d+)(.*)$/);if(!m)return;const t0=performance.now();(function f(t){const k=Math.min((t-t0)/1200,1);n.textContent=m[1]+Math.round(m[2]*(1-Math.pow(1-k,3)))+m[3];if(k<1)requestAnimationFrame(f)})(t0)})}
+// кнопка «Зміст»
+const tb=document.createElement('button');tb.id='toc';tb.textContent='☰ Зміст';tb.onclick=()=>Reveal.slide(1);document.body.append(tb);
+Reveal.initialize({width:1280,height:720,margin:0.02,center:false,hash:true,slideNumber:true,controls:true,progress:true,transition:'convex',backgroundTransition:'fade'}).then(count);
+Reveal.on('slidechanged',count);
+</script>
+</body>
+</html>
